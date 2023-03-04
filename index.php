@@ -23,6 +23,8 @@
          <? include 'modules/headline.php';?>
          <? include 'modules/client.php';?>
          <? include 'modules/features.php';?>
+         <? include 'modules/wallet.php';?>
+         <? include 'modules/security.php';?>
       </content>
    </main>
    <? //include 'modules/layouts/footer.php'; 
