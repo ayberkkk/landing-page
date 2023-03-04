@@ -1,0 +1,84 @@
+#features {
+    display: flex;
+    align-items: center;
+}
+
+#features .container-fluid {
+    padding: 15px 0 15px 0;
+    text-align: left;
+}
+
+#features .content {
+    margin-top: 100px;
+    padding: 50px;
+}
+
+#features .content .pay-day {
+    margin-bottom: 28px;
+    color: #006bff;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#features .content .pay-title {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+#features .content .pay-desc {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #545a79;
+}
+
+#features .managment {
+    margin-top: 20px;
+}
+
+#features .managment>div {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+#features .managment-img {
+    margin-right: 30px;
+}
+
+#features .managment img {
+    border-radius: 20px;
+}
+
+#features .managment h6 {
+    margin-bottom: 12px;
+    color: #27346d;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#features .managment p {
+    color: #545a79;
+}
+
+@media screen and (max-width:992px) {
+    #features .content {
+        margin-top: 10px;
+        padding: 10px;
+    }
+
+    #features .content .pay-day {
+        font-size: 20px;
+    }
+
+    #features .content .pay-title {
+        font-size: 32px;
+    }
+
+    #features .managment h6 {
+        font-size: 20px;
+    }
+}

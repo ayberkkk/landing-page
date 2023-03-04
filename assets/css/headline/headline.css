@@ -1,0 +1,186 @@
+#headline {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #f7f6fe;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    overflow: hidden;
+    padding-top: 180px;
+    padding-bottom: 250px;
+}
+
+#headline .headline-motto {
+    font-size: 18px;
+    font-weight: 700;
+    color: #006bff;
+}
+
+#headline .headline-title {
+    font-size: 75px;
+    font-weight: 800;
+    color: #27346d;
+}
+
+#headline .headline-information {
+    font-size: 22px;
+    color: #27346d;
+}
+
+#headline .headline-img {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    animation-name: fadeInTopRight;
+}
+
+#headline .headline-img .circle {
+    position: absolute;
+    right: 0px;
+    top: -100px;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+    -webkit-animation: spin 8s linear infinite;
+    -moz-animation: spin 8s linear infinite;
+    animation: spin 8s linear infinite;
+}
+
+#headline .headline-img .wallet {
+    position: absolute;
+    top: 80px;
+    right: 30px;
+    z-index: 2;
+    max-width: 100%;
+    height: auto;
+    animation: shake 2s linear infinite;
+    -moz-animation: shake 2s linear infinite;
+    -webkit-animation: shake 2s linear infinite;
+}
+
+#headline .headline-img .mockup {
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: auto;
+}
+
+#headline .store-img {
+    display: flex;
+}
+
+#headline .store-img .app-store {
+    margin-left: 10px;
+}
+
+#headline .rating {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    text-align: left;
+}
+
+#headline .rating .rating-1 {
+    margin-right: 60px;
+}
+
+#headline .rating .score {
+    font-size: 54px;
+    font-weight: 800;
+    color: #27346d;
+}
+
+#headline .rating .icon-star {
+    color: #ff8e25;
+}
+
+#headline .rating .mobile-store {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #27346d;
+}
+
+@media only screen and (max-width: 1600px) {
+    #headline .headline-img .mockup {
+        position: absolute;
+        bottom: 20%;
+        -webkit-transform: translateY(-10%);
+        -ms-transform: translateY(-10%);
+        transform: translateY(-10%);
+    }
+}
+
+.shake {
+    animation: shake 3s infinite;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    animation-fill-mode: none;
+    animation-play-state: running;
+    animation-name: shake;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes fadeInTopRight {
+    0% {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, -100%, 0);
+        transform: translate3d(100%, -100%, 0);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+}
+
+@media screen and (max-width:992px) {
+    #headline {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    #headline .headline-img {
+        display: none;
+    }
+
+    #headline .headline-motto {
+        font-size: 16px;
+    }
+
+    #headline .headline-title {
+        font-size: 35px;
+    }
+
+    #headline .headline-information {
+        font-size: 18px;
+    }
+
+    #headline .store-img img {
+        width: 80%;
+        height: auto;
+    }
+    #headline .rating-1 {
+        margin-right:30px !important ;
+    }
+    #headline .score{
+       font-size: 30px !important;
+    }
+    #headline .mobile-store{
+        font-size: 16px !important;
+        white-space: nowrap;
+     }
+
+
+}

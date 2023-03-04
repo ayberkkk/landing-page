@@ -1,0 +1,51 @@
+#client {
+    position: relative;
+    top: -136px;
+    margin-bottom: -136px;
+    z-index: 4;
+}
+
+#client .client-title {
+    font-size: 32px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #3a4a95;
+    font-style: normal;
+    text-align: left;
+    margin-top: -4px;
+    text-align: center;
+}
+
+#client .client-wrapper {
+    padding: 60px 12px;
+    background-color: #ffffff;
+    box-shadow: 0px 14px 30px rgb(39 59 130 / 25%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#client .my-slider {
+    display: flex;
+    margin-top: 10px;
+}
+
+#client .my-slider img {
+    display: table;
+    width: initial;
+    margin: auto;
+}
+
+#client .tns-nav {
+    display: none;
+}
+
+#client button {
+    display: none;
+}
+@media screen and (max-width:992px){
+    #client .client-title {
+        font-size: 20px;
+    }
+}
