@@ -1,21 +1,45 @@
-#wallet {
-    background-image: url(./wallet-bg.png);
-    background-color: #ffffff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+#card {
     position: relative;
-    margin-top: 80px;
-    overflow-x: clip;
-    text-align: left;
+    padding: 120px 0;
+    border: none;
 }
 
-#wallet .wallet-area {
+#card .content-img {
+    direction: rtl;
+    position: relative;
+}
+
+#card .content-img .card-one {
+    position: absolute;
+    top: 15%;
+    left: -200px;
+    -webkit-box-shadow: 0px 7.12744px 35.6372px rgb(0 0 0 / 25%);
+    box-shadow: 0px 7.12744px 35.6372px rgb(0 0 0 / 25%);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    animation: slide 2s linear infinite;
+}
+
+#card .content-img .card-two {
+    position: absolute;
+    bottom: 10%;
+    right: 0px;
+    animation: slide 2s linear infinite;
+    -webkit-box-shadow: 0px 7.12744px 35.6372px rgb(0 0 0 / 25%);
+    box-shadow: 0px 7.12744px 35.6372px rgb(0 0 0 / 25%);
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    border-radius: 30px;
+    animation-delay: 3s;
+}
+#card .card-area {
     position: relative;
     padding: 120px 0;
 }
-
-#wallet h6 {
+#card h6 {
     font-size: 24px;
     line-height: 28px;
     font-weight: 700;
@@ -23,14 +47,14 @@
     color: #006bff;
 }
 
-#wallet h2 {
+#card h2 {
     font-size: 54px;
     line-height: 64px;
     font-weight: 700;
     color: #27346d;
 }
 
-#wallet p {
+#card p {
     font-size: 18px;
     line-height: 28px;
     font-weight: 400;
@@ -38,7 +62,7 @@
     margin-bottom: 32px;
 }
 
-#wallet ul li {
+#card ul li {
     list-style-position: outside;
     font-weight: 700;
     display: flex;
@@ -50,7 +74,7 @@
     line-height: 34px;
 }
 
-#wallet .icon-checked-mark1 {
+#card .icon-checked-mark1 {
     width: 30px;
     height: 30px;
     background-color: #00cf86;
@@ -67,54 +91,37 @@
     margin-right: 10px;
 }
 
-#wallet .contain-img {
-    position: absolute;
-    right: 0;
-    top: 0;
-    direction: ltr;
-    -webkit-transform: translateX(300px);
-    -ms-transform: translateX(300px);
-    transform: translateX(300px);
-}
-
-#wallet .contain-img img {
-    -webkit-transform: translateY(-80px);
-    -ms-transform: translateY(-80px);
-    transform: translateY(-80px);
-}
-
 @media screen and (max-width:992px) {
-    #wallet {
-        background-image: none;
-    }
-    #wallet .wallet-area {
+    #card {
         padding: 50px;
+    }
+    #card .card-area {
         padding-left: 10px;
         padding-right: 10px;
     }
 
-    #wallet .contain-img {
+    #card .contain-img {
         display: none;
     }
 
-    #wallet h6 {
+    #card h6 {
         font-size: 20px;
         line-height: 24px;
         font-weight: 700;
     }
 
-    #wallet h2 {
+    #card h2 {
         font-size: 32px;
         line-height: 42px;
         font-weight: 700;
     }
 
-    #wallet p {
+    #card p {
         font-size: 16px;
         line-height: 26px;
     }
 
-    #wallet ul li {
+    #card ul li {
         font-size: 20px;
         line-height: 30px;
     }

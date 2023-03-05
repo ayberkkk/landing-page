@@ -1,0 +1,62 @@
+#app {
+    text-align: center;
+}
+
+#app .content {
+    position: relative;
+    padding: 120px 0;
+}
+
+#app h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    margin-bottom: 28px;
+    color: #006bff;
+}
+
+#app h2 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+#app p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #545a79;
+    margin-bottom: 32px;
+}
+
+#app .ss-slider {
+    position: relative;
+    padding-top: 35px;
+}
+
+#app .dev-img {
+    width: 271px !important;
+    height: 531px !important;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+#app .ss-slider-img img {
+    max-width: 248px !important;
+    height: 511px !important;
+    height: auto;
+    -webkit-box-shadow: 0px 4px 21px rgb(79 124 238 / 25%);
+    box-shadow: 0px 4px 21px rgb(79 124 238 / 25%);
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    -ms-border-radius: 35px;
+    border-radius: 35px;
+}
+#app button {
+    display: none;
+}

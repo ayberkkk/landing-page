@@ -1,0 +1,99 @@
+#whymosto {
+    background-image: url(./choice-bg.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 80px;
+    overflow-x: clip;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+#whymosto .content {
+    padding: 100px;
+}
+
+#whymosto h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #006bff;
+    margin-bottom: 29px;
+}
+
+#whymosto h2 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+#whymosto p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #545a79;
+}
+
+#whymosto .choice-box {
+    padding: 40px 10px;
+    text-align: center;
+    background-color: transparent;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+#whymosto .choice-box:hover {
+    background-color: #ffffff;
+}
+
+#whymosto .choice-box img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#whymosto .choice-box .box-title {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #27346d;
+    margin-bottom: 18px;
+}
+#whymosto .choice-box .box-desc {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #545a79;
+}
+#whymosto button {
+    display: none;
+ }
+
+ @media screen and (max-width:992px){
+    #whymosto .content {
+        padding: 10px;
+        padding-top:50px;
+    }
+    #whymosto h6 {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+    #whymosto h2 {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+    #whymosto p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+ }

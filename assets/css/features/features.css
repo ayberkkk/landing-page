@@ -65,6 +65,9 @@
 }
 
 @media screen and (max-width:992px) {
+    #features {
+        margin-top: 80px;
+    }
     #features .content {
         margin-top: 10px;
         padding: 10px;

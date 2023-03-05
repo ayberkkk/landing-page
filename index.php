@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1">
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
    <title>
-      NFT's |
+      Landing Pages
    </title>
 </head>
 <? include 'assets/assets.php'; ?>
@@ -13,7 +13,7 @@
    <div class="spinner"></div>
 </div>
 <!-- Top Button -->
-<i id="topButton" class="icon icon-up4 over-top-i" style="opacity:0;"></i>
+<i id="topButton" class="icon icon-up3 over-top-i" style="opacity:0;"></i>
 <!-- Top Button End -->
 
 <body class="main">
@@ -25,9 +25,15 @@
          <? include 'modules/features.php';?>
          <? include 'modules/wallet.php';?>
          <? include 'modules/security.php';?>
+         <? include 'modules/choice.php';?>
+         <? include 'modules/card.php';?>
+         <? include 'modules/how.php';?>
+         <? include 'modules/app.php';?>
+         <? include 'modules/plans.php';?>
+         <? include 'modules/apk.php';?>
       </content>
    </main>
-   <? //include 'modules/layouts/footer.php'; 
+   <? include 'modules/layouts/footer.php'; 
    ?>
    <div id="closeToggle" style="display: none;"></div>
    <script>

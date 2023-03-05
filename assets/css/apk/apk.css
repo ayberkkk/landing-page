@@ -1,0 +1,56 @@
+#apk {
+    padding: 30px 0 30px 0;
+}
+
+#apk .app-area {
+    padding: 120px 60px;
+    background-color: #f7f6fe;
+    position: relative;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    margin-top: 110px;
+    text-align: left;
+}
+
+#apk h2 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+#apk .store-img {
+    display: flex;
+}
+
+#apk .store-img .app-store {
+    margin-left: 10px;
+}
+
+#apk .apk-img {
+    position: relative;
+}
+
+#apk .apk-img img {
+    position: absolute;
+    top: -254px;
+    right: 0;
+}
+
+@media screen and (max-width:992px) {
+    #apk h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+
+    #apk .app-area {
+        padding: 60px 12px;
+    }
+
+    #apk .apk-img {
+        display: none;
+        ;
+    }
+}

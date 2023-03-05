@@ -1,0 +1,87 @@
+#how {
+    background-image: url(../choice/choice-bg.png);
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-top: 80px;
+    overflow-x: clip;
+    text-align: center;
+}
+
+#how .content {
+    padding: 100px;
+}
+
+#how h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #006bff;
+    margin-bottom: 29px;
+}
+
+#how h2 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+#how .works-1,
+.works-2,
+.works-3 {
+    position: relative;
+    padding: 30px;
+}
+
+#how .works-1::before {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 296px;
+    background-image: url(../../img/line-one.png);
+    width: 250px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+
+#how .works-2::before {
+    content: "";
+    position: absolute;
+    top: 20%;
+    left: 300px;
+    background-image: url(../../img/line-two.png);
+    width: 250px;
+    height: 48px;
+    background-repeat: no-repeat;
+}
+
+#how .works-title {
+    color: #27346d;
+}
+
+@media screen and (max-width:992px) {
+    #how .content {
+        padding: 10px;
+    }
+
+    #how h6 {
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 700;
+    }
+
+    #how h2 {
+        font-size: 32px;
+        line-height: 42px;
+        font-weight: 700;
+    }
+    #how .works-1::before {
+        display: none;
+    }
+    #how .works-2::before {
+        display: none;
+    }
+}

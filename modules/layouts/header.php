@@ -27,28 +27,23 @@
 										</a>
 									</li>
 									<li class="col-auto menu-item">
-										<a class="toggle" href="#whyMosto">
+										<a class="toggle" href="#whymosto">
 											Why Mosto
 										</a>
 									</li>
 									<!--  -->
 									<li class="col-auto menu-item">
-										<a class="toggle" href="#virtualCard">
+										<a class="toggle" href="#card">
 											Virtual Card
 										</a>
 									</li>
 									<!--  -->
 									<li class="col-auto menu-item">
-										<a class="toggle" href="#plan">
+										<a class="toggle" href="#plans">
 											Plan
 										</a>
 									</li>
 									<!--  -->
-									<li class="col-auto menu-item">
-										<a class="toggle" href="#testimonials">
-											Testimonials
-										</a>
-									</li>
 									<li class="col-auto btn-download">
 										<a class="download" href="#">
 											Download Now

@@ -45,7 +45,12 @@
     display: none;
 }
 @media screen and (max-width:992px){
+    #client {
+        margin-top: 80px;
+        padding:0 10px 0 10px;
+    }
     #client .client-title {
         font-size: 20px;
+        line-height: 28px;
     }
 }

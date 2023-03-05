@@ -116,20 +116,6 @@
     }
 }
 
-.shake {
-    animation: shake 3s infinite;
-    animation-duration: 3s;
-    animation-timing-function: ease;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-    animation-direction: normal;
-    animation-fill-mode: none;
-    animation-play-state: running;
-    animation-name: shake;
-    transform: translate3d(0, 0, 0);
-    backface-visibility: hidden;
-    perspective: 1000px;
-}
 
 @keyframes fadeInTopRight {
     0% {
@@ -154,9 +140,13 @@
     #headline .headline-img {
         display: none;
     }
+    #headline .information-content {
+        padding-top: 20px;
+        padding-bottom: 95px;
+    }
 
     #headline .headline-motto {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     #headline .headline-title {

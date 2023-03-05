@@ -97,12 +97,16 @@ body .content {
     right: 25px;
     bottom: 25px;
     z-index: 50;
-    background-color: var(--color-light-heading);
-    color: var(--color-primary);
+    color: #27346d;
     padding: 12px;
-    font-size: 18px;
-    line-height: 18px;
-    border-radius: 50%;
+    font-size: 25px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.show {
+    display: block !important;
+    opacity: 1 !important
 }
 
 .navbar {
@@ -252,5 +256,68 @@ ul {
 @media screen and (max-width:992px) {
     .drop .sub {
         position: relative;
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(13px, 0);
+    }
+
+    50% {
+        transform: translate(-13px, 5px);
+    }
+
+    100% {
+        transform: translate(13px, 0);
+    }
+}
+
+@-moz-keyframes shake {
+    0% {
+        -moz-transform: translate(13px, 0);
+    }
+
+    50% {
+        -moz-transform: translate(-13px, 5px);
+    }
+
+    100% {
+        -moz-transform: translate(13px, 0);
+    }
+}
+
+@-webkit-keyframes shake {
+    0% {
+        -webkit-transform: translate(13px, 0);
+    }
+
+    50% {
+        -webkit-transform: translate(-13px, 5px);
+    }
+
+    100% {
+        -webkit-transform: translate(13px, 0);
+    }
+}
+
+@keyframes slide {
+    0% {
+        -webkit-transform: translate(13px, 40);
+    }
+
+    50% {
+        -webkit-transform: translate(-13px, 20px);
+    }
+
+    100% {
+        -webkit-transform: translate(0px, 0);
     }
 }
