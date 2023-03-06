@@ -2,6 +2,7 @@ var slider = tns({
   container: ".choice-slider",
   items: 3,
   autoplay: true,
+  mouseDrag: true,
   controls: false,
   responsive: {
     350: {

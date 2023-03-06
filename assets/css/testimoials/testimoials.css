@@ -1,0 +1,89 @@
+#testimoials {
+    padding: 30px 0 30px 0;
+}
+
+#testimoials .comment-card {
+    padding: 40px;
+    -webkit-box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 10px rgb(0 0 0 / 25%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: right 40px bottom 20px;
+    -webkit-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+#testimoials .comment-card:hover {
+    -webkit-box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+    box-shadow: 0px 4px 20px rgb(0 0 0 / 25%);
+}
+
+#testimoials .content h2 {
+    color: #006bff;
+    margin-bottom: 24px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+#testimoials .content h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #006bff;
+    margin-bottom: 24px;
+}
+
+#testimoials .content h2 {
+    font-size: 54px;
+    line-height: 64px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+#testimoials .content p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #545a79;
+}
+
+.comment-card h6 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 700;
+    color: #27346d;
+}
+
+.comment-card p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #27346d;
+}
+
+.comment-card .user {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.comment-card .user img {
+    max-width: 100%;
+    height: auto;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#testimoials .second-comment {
+    margin-top: 30px;
+}

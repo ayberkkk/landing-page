@@ -30,6 +30,7 @@
          <? include 'modules/how.php';?>
          <? include 'modules/app.php';?>
          <? include 'modules/plans.php';?>
+         <? include 'modules/testimoials.php';?>
          <? include 'modules/apk.php';?>
       </content>
    </main>

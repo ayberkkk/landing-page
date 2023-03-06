@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="assets/css/plans/plans.css" />
-<section id="plans" class="plans animated-element" data-sal-duration="800" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
-    <div class="container">
+<section id="plans" class="plans">
+    <div class="container  animated-element" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
         <div class="row">
             <div class="content">
                 <h6>

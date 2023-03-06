@@ -1,5 +1,5 @@
 <link rel="stylesheet" type="text/css" href="assets/css/how/how.css" />
-<section id="how" class="how animated-element" data-sal-duration="800" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+<section id="how" class="how">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -11,7 +11,7 @@
                         Follow Some Simple Steps For Using Mosto
                     </h2>
                 </div>
-                <div class="col-12">
+                <div class="col-12  animated-element" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
                     <div class="row">
                         <div class="col-12 col-lg-4">
                             <div class="works-1">

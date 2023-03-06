@@ -2,11 +2,11 @@
 <section id="security" class="security animated-element" data-sal-duration="800" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-5 d-none d-lg-block">
+            <div class="col-lg-5 d-none d-lg-block animated-element" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
                 <img class="img-fluid payment" src="./assets/img/design-illustration.png">
             </div>
             <div class="col-lg-6 offset-lg-1">
-                <div class="content">
+                <div class="content animated-element" data-sal-duration="500" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
                     <p class="pay-day">
                         Security that’s strong as oak
                     </p>

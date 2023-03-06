@@ -32,7 +32,7 @@
 
 #app .ss-slider {
     position: relative;
-    padding-top: 35px;
+    padding: 35px 0 35px 0;
 }
 
 #app .dev-img {
@@ -47,8 +47,8 @@
 }
 
 #app .ss-slider-img img {
-    max-width: 248px !important;
-    height: 511px !important;
+    width: auto;
+    max-height: 511px;
     height: auto;
     -webkit-box-shadow: 0px 4px 21px rgb(79 124 238 / 25%);
     box-shadow: 0px 4px 21px rgb(79 124 238 / 25%);
@@ -57,6 +57,7 @@
     -ms-border-radius: 35px;
     border-radius: 35px;
 }
+
 #app button {
     display: none;
 }

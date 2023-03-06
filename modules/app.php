@@ -15,15 +15,30 @@
             </div>
         </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid  animated-element" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
         <div class="ss-slider">
             <div class="ss-slider-img">
-                <img class="img-fluid" src="./assets/img/app/shot-one.png" />
-                <img class="img-fluid" src="./assets/img/app/shot-two.png" />
-                <img class="img-fluid" src="./assets/img/app/shot-four.png" />
-                <img class="img-fluid" src="./assets/img/app/shot-five.png" />
-                <img class="img-fluid" src="./assets/img/app/shot-one.png" />
-                <img class="img-fluid" src="./assets/img/app/shot-two.png" />
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-one.png" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-two.png" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-four.png" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-five.png" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-one.png" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-four.png" />
+                </div>
+                <div class="item">
+                    <img class="img-fluid" src="./assets/img/app/shot-two.png" />
+                </div>
             </div>
             <img class="img-fluid dev-img" src="./assets/img/app/dev.png">
         </div>

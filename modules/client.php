@@ -1,8 +1,8 @@
 <link rel="stylesheet" type="text/css" href="assets/css/client/client.css">
-<section id="client" class="client animated-element" data-sal-duration="800" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+<section id="client" class="client">
     <div class="container">
         <div class="row">
-            <div class="client-wrapper">
+            <div class="client-wrapper animated-element" data-sal-duration="500" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
                 <h3 class="client-title">
                     More than 1,200,000 creative people use it
                 </h3>

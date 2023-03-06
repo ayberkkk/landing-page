@@ -1,16 +1,16 @@
 <link rel="stylesheet" type="text/css" href="assets/css/card/card.css">
-<section id="card" class="card animated-element" data-sal-duration="800" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+<section id="card" class="card">
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-5 d-none d-lg-block">
-                <div class="content-img">
+                <div class="content-img animated-element" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
                     <img class="img-fluid" src="./assets/img/card-bg.png">
                     <img class="img-fluid card-one" src="./assets/img/card-one.png">
                     <img class="img-fluid card-two" src="./assets/img/card-two.png">
                 </div>
             </div>
             <div class="col-12 col-lg-7">
-                <div class="card-area">
+                <div class="card-area animated-element" data-sal-duration="800" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
                     <h6>
                         Get Your Card
                     </h6>
