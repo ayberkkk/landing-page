@@ -55,7 +55,7 @@
 				</div>
 			</div>
 			<div class="col-4">
-				<div class="headline-img">
+				<div class="headline-img wow animate__ animate__fadeInTopRight animated">
 					<img class="img-fluid circle" src="./assets/img/headline/circle.png">
 					<img class="img-fluid wallet" src="./assets/img/headline/wallet.png">
 					<img class="img-fluid mockup" src="./assets/img/headline/mockup.png">
